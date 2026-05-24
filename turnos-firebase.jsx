@@ -28,7 +28,7 @@ const db  = getFirestore(app);
 const auth = getAuth(app);
 
 // ─── CONSTANTES ───────────────────────────────────────────────────────────────
-const CATEGORIES = ["General", "Créditos", "Cuentas", "Inversiones", "Reclamos"];
+const CATEGORIES = ["Contratacion Nueva", "Cita con Ejecutivo", "Aclaraciones", "Pago de Servicio", "Recargas"];
 const CAT_PREFIX = { General:"G", Créditos:"C", Cuentas:"A", Inversiones:"I", Reclamos:"R" };
 const EXEC_COLORS = ["#00C9A7","#845EF7","#FF6B6B","#F7B731","#26de81","#fd9644","#a55eea","#45aaf2"];
 
